@@ -7,3 +7,4 @@ response = requests.get(url_dollar)
 print('-----------------------')
 print(response.json())
 print('-----------------------')
+
