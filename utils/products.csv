@@ -1,8 +1,0 @@
-ProductID,DepartmentID,Category,IDSKU,ProductName,Quantity,UnitPrice,UnitPriceUSD,UnitPriceEuro,Ranking
-PR4192,D1183,Makeup,SKU9763,Maybelline New York Super Stay,1,10,43,46,88
-PR4298,D1183,Beauty appliances,SKU76G2,T3 Featherweight,1,247,1060,1133,5
-PR4394,D1145,Sneakers,SKU8723,Under Armour Micro G running shoes,1,67,288,307,12
-PR4467,D1178,Adaptor,SKUGNXW,Poweradd power converter,1,30,129,138,701
-PR4689,D1145,Jewelery,SKU7263,10k Rose Gold plated white Gold Diamond ring,1,538,2310,2467,83766
-PR4769,D1178,Tablet,SKU6789,Kindle Paperwhite,1,140,601,642,767
-PR4789,D1178,Laptop,SKUB00V,ASUS Chromebook C201,1,270,1159,1238,18
