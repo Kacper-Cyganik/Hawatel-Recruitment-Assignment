@@ -11,3 +11,17 @@ INFO 2022-06-07 19:05:44,071 Connected to mydb
 INFO 2022-06-07 19:05:44,077 Connection closed
 INFO 2022-06-07 19:05:49,775 Connected to mydb
 INFO 2022-06-07 19:05:49,782 Connection closed
+INFO 2022-06-07 19:59:08,320 Connected to mydb
+INFO 2022-06-07 19:59:08,326 Connection closed
+INFO 2022-06-07 19:59:11,137 Connected to mydb
+DEBUG 2022-06-07 19:59:11,139 Starting new HTTP connection (1): api.nbp.pl:80
+DEBUG 2022-06-07 19:59:11,190 http://api.nbp.pl:80 "GET /api/exchangerates/rates/a/usd/ HTTP/1.1" 200 None
+INFO 2022-06-07 19:59:11,190 Successful fetch at http://api.nbp.pl/api/exchangerates/rates/a/usd/
+DEBUG 2022-06-07 19:59:11,191 Starting new HTTP connection (1): api.nbp.pl:80
+DEBUG 2022-06-07 19:59:11,231 http://api.nbp.pl:80 "GET /api/exchangerates/rates/a/eur/ HTTP/1.1" 200 None
+INFO 2022-06-07 19:59:11,231 Successful fetch at http://api.nbp.pl/api/exchangerates/rates/a/eur/
+INFO 2022-06-07 19:59:11,232 Update currencies
+INFO 2022-06-07 19:59:11,239 Connection closed
+INFO 2022-06-07 19:59:25,472 Connected to mydb
+INFO 2022-06-07 19:59:25,472 Successful I/O operation on lol.csv.
+INFO 2022-06-07 19:59:25,476 Connection closed

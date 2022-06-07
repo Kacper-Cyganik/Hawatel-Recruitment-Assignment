@@ -1,4 +1,4 @@
-import DBHandler
+import DBHandler as DBHandler
 import sys
 import argparse
 import logging
