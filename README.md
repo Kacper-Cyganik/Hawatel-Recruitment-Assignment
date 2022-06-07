@@ -67,6 +67,7 @@ zainstalować za pomocą komendy: pip install <module_name>.whl.
    - requests
 - MySQL
 - Cron
+
 ## How to run
 
 Script was written on **Ubuntu 21.10** operating system and requires **cron** to meet all assignment requirements.
@@ -82,7 +83,14 @@ https://github.com/Kacper-Cyganik/Hawatel-Recruitment-Assignment.git
 ```
 pip install -r requirements.txt
 ```
-
+Update config.py file with your credentials:
+```
+# db credentails
+DB_HOST="localhost"
+DB_USER='dummy_username'
+DB_PASSWORD='dummy_password'
+DB_NAME='mydb'
+```
 ### Examples:
 update unit prices for all products
 ```
