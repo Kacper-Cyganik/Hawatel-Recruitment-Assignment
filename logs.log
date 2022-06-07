@@ -1,0 +1,10 @@
+INFO 2022-06-07 16:38:25,115 Connected to mydb
+INFO 2022-06-07 16:38:25,115 Hello
+DEBUG 2022-06-07 16:38:25,116 Starting new HTTP connection (1): api.nbp.pl:80
+DEBUG 2022-06-07 16:38:25,151 http://api.nbp.pl:80 "GET /api/exchangerates/rates/a/usd/ HTTP/1.1" 200 None
+INFO 2022-06-07 16:38:25,151 Successful fetch at http://api.nbp.pl/api/exchangerates/rates/a/usd/
+DEBUG 2022-06-07 16:38:25,152 Starting new HTTP connection (1): api.nbp.pl:80
+DEBUG 2022-06-07 16:38:25,191 http://api.nbp.pl:80 "GET /api/exchangerates/rates/a/eur/ HTTP/1.1" 200 None
+INFO 2022-06-07 16:38:25,192 Successful fetch at http://api.nbp.pl/api/exchangerates/rates/a/eur/
+INFO 2022-06-07 16:38:25,193 Update currencies
+INFO 2022-06-07 16:38:25,198 Connection closed
