@@ -60,8 +60,22 @@ do pliku logu.
 7. Opcjonalnie skrypt może być stworzony w standardzie paczki python, którą można będzie
 zainstalować za pomocą komendy: pip install <module_name>.whl.
 
+## Build setup
+- Unix based operating system
+- python3 and additional libraries:
+   - mysql-connector-python
+   - requests
+- MySQL
+- Cron
 ## How to run
+
 Script was written on **Ubuntu 21.10** operating system and requires **cron** to meet all assignment requirements.
+
+Firstly, you need to import mydb.sql to run this app. Possible solution:
+```
+sudo mysql -u username -p mydb < mydb.sql
+```
+Clone repository and install requirements
 ```
 https://github.com/Kacper-Cyganik/Hawatel-Recruitment-Assignment.git
 ```
