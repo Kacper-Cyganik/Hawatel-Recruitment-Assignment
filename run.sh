@@ -1,2 +1,3 @@
 #!/bin/bash
-/home/kacper/Desktop/Job/Hawatel/Hawatel-Recruitment-Assignment/env/bin/python main.py
+# path to main.py
+# path/env/bin/python main.py
