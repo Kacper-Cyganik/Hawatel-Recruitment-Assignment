@@ -121,3 +121,4 @@ optional arguments:
   -u           update product prices in mydb.Product (UnitPriceUSD and UnitPriceEuro) (argument: None)
   -t           see all products price (PLN, USD, EURO)
 ```
+All logs are stores in logs.log
