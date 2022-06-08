@@ -91,19 +91,7 @@ DB_USER='dummy_username'
 DB_PASSWORD='dummy_password'
 DB_NAME='mydb'
 ```
-### Examples:
-update unit prices for all products
-```
-python3 main.py -u
-```
-generate .csv data for all products
-```
-python3 main.py -g example_file
-```
-show current Product unit prices.
-```
-python3 main.py -t
-```
+
 ## Configure Cron
 To make daily currency updates work open cron and add this line:
 ```
@@ -121,4 +109,19 @@ optional arguments:
   -u           update product prices in mydb.Product (UnitPriceUSD and UnitPriceEuro) (argument: None)
   -t           see all products price (PLN, USD, EURO)
 ```
+
+### Examples:
+update unit prices for all products
+```
+python3 main.py -u
+```
+generate .csv data for all products
+```
+python3 main.py -g example_file
+```
+show current Product unit prices.
+```
+python3 main.py -t
+```
+
 All logs are stores in logs.log
