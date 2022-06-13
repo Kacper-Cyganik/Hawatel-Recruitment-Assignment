@@ -72,10 +72,6 @@ zainstalować za pomocą komendy: pip install <module_name>.whl.
 
 Script was written on **Ubuntu 21.10** operating system and requires **cron** to meet all assignment requirements.
 
-Firstly, you need to import mydb.sql to run this app. Possible solution:
-```
-sudo mysql -u username -p mydb < mydb.sql
-```
 Clone repository and install requirements
 ```
 https://github.com/Kacper-Cyganik/Hawatel-Recruitment-Assignment.git
@@ -83,6 +79,12 @@ https://github.com/Kacper-Cyganik/Hawatel-Recruitment-Assignment.git
 ```
 pip install -r requirements.txt
 ```
+Import mydb.sql to run this app. Possible solution:
+```
+mysql>create database mydb;
+sudo mysql -u username -p mydb < mydb.sql
+```
+
 Update config.py file with your credentials:
 ```
 # db credentails
